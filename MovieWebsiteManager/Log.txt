@@ -1,0 +1,40 @@
+16/7:
+- Cập nhật giao diện main menu
+- Sửa lỗi MainMenu setEnable ->this.dispose() trong Create Account, dòng 318
+19/7 
+- Cập nhật chức năng insert + update movie
+-> update quan trọng, mọi người chuyển sang dùng bản này
+21/7 
+->Nhân:
+- Cập nhật giao diện main menu
+- thêm hàm getMovie trong MovieModel
+- cập nhật class movie
+- sửa lỗi trong movieModel
+ - thêm hàm getFavMovieId, getFavMovie trong FavList
+->Thành
+*Lỗi: media player bị lỗi k thể xem khi chuyển và xem trailer của các phim
+- thêm panel hiển thị thông tin movie, panel home, panel favorite movie
+- Ghép code 21/7 của Nhân
+-> update quan trọng, mọi người chuyển sang dùng bản này. Bắt đầu tính version
+22/7
+*Thanh:
+v1.1.0
+- Thêm chức năng search
+- sửa lỗi k link trailer sai
+- sửa giao diện create account: set undercorated true để người dùng k bấm nút X đc ->khỏe
+v1.1.2
+- Sửa lỗi add fav với coi trailer do add mouseListener mà trước đó k gỡ listener cũ ra 
+- cập nhật nhẹ giao diện create account
+v1.1.3
+- cập nhật giao diện log in (sửa 1 đống) + create account (sửa 1 đống)
+23/7
+v1.1.4
+-Thêm check độ dài + tên trùng
+v1.1.5
+-sửa lỗi ở các method check tên trùng
+24/7
+v1.1.6
+-sửa check mail*
+-sửa 1 lỗi nhỏ ở create account
+-sửa nhẹ giao diện main menu
+-bổ sung comment ở đa số các class
